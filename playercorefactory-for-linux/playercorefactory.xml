@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+# Goes inside %APPDATA%\kodi\userdata
+-->
+<playercorefactory>
+<players>
+<player name="VLC" type="ExternalPlayer" audio="false" video="true">
+<filename>/usr/bin/vlc</filename>
+<hidexbmc>true</hidexbmc>
+<hideconsole>true</hideconsole>
+<warpcursor>none</warpcursor>
+</player>
+<player name="VLC" type="ExternalPlayer" audio="false" video="true">
+<filename>/usr/bin/vlc</filename>
+<hidexbmc>true</hidexbmc>
+<hideconsole>true</hideconsole>
+<warpcursor>none</warpcursor>
+</player>
+</players>
+<rules action="prepend">
+   <rule filetypes="aac|mp3|avi|mkv|mp4|m4v|mpg|m3u|m3u8|ts|mpeg" player="VLC" />
+<!--
+   <rule filetypes="avi|mkv|mp4|m4v|mpg|mpeg" player="Media Player Classic" />
+-->
+</rules>
+</playercorefactory>
+
